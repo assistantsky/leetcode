@@ -6,7 +6,6 @@
  *               otherwise return 0
  * int guess(int num);
  */
-
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
         int left = 1, right = n;
